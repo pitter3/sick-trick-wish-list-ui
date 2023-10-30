@@ -16,6 +16,10 @@ function App() {
     .then(data => setTricks(data))
   }
 
+  function addTrick (newTrick) {
+    setTricks([...tricks, newTrick])
+  }
+
 useEffect(() => {
  getTricks()
 }, [])
@@ -23,7 +27,7 @@ useEffect(() => {
   return (
     <div className="App">
       <h1>Sick Trick Wish List</h1>
-      <Form />
+      <Form addTrick={addTrick} />
       <Tricks tricks={tricks} />
     </div>
   );

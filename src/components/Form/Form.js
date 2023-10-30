@@ -54,9 +54,9 @@ function Form({ addTrick }) {
 
         <label>
           <select
-            name="stance"
-            value={stance}
-            onChange={(event) => setStance(event.target.value)}
+            name="obstacle"
+            value={obstacle}
+            onChange={(event) => setObstacle(event.target.value)}
           >
             <option value="" disabled hidden>
               Choose your Obstacle
