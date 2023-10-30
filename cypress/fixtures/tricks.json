@@ -1,0 +1,23 @@
+[
+  {
+      "stance": "regular",
+      "name": "kickflip",
+      "obstacle": "flat ground",
+      "tutorial": "https://www.youtube.com/watch?v=XGw3YkQmNig",
+      "id": 1
+  },
+  {
+      "stance": "switch",
+      "name": "boardslide",
+      "obstacle": "rail",
+      "tutorial": "https://www.youtube.com/watch?v=9N9swrZU1HA",
+      "id": 2
+  },
+  {
+      "stance": "regular",
+      "name": "pop-shove-it",
+      "obstacle": "flat ground",
+      "tutorial": "https://www.youtube.com/watch?v=9N9swrZU1HA",
+      "id": 3
+  }
+]
