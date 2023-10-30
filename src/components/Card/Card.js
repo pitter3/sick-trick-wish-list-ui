@@ -1,8 +1,12 @@
 import "./Card.css"
 
-function Card() {
+function Card({id, name, stance, obstacle, tutorial}) {
   return (
-    <h1 className="card">Card Component</h1>
+    <div className="card">
+      <p>{name}</p>
+      <p>Obstacle: {obstacle}</p>
+      <p>Link to Tutorial:<br></br>{tutorial}</p>
+    </div>
   )
 }
 
