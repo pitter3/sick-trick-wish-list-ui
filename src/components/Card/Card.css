@@ -1,3 +1,5 @@
 .card {
-  text-align: center;
+  border: 5px solid black;
+  padding: 8px;
+  background-color: white;
 }

@@ -23,6 +23,7 @@ useEffect(() => {
   return (
     <div className="App">
       <h1>Sick Trick Wish List</h1>
+      <Form />
       <Tricks tricks={tricks} />
     </div>
   );
